@@ -1,0 +1,10 @@
+application: laoyebs2
+version: 2
+runtime: python
+api_version: 1
+
+handlers:
+
+- url: /(.*)
+  script: bs2grproxy.py
+
